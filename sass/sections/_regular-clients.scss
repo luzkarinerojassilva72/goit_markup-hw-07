@@ -1,0 +1,21 @@
+.regular__clients__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.regular__clients__icons {
+  width: 170px;
+  height: 60px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.regular__clients__icons {
+  fill: $primary-gray-color;
+}
+
+.regular__clients__icons:hover {
+  fill: $accent-color;
+  border-color: $accent-color;
+}

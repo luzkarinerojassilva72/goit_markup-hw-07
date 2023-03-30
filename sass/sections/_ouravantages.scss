@@ -1,0 +1,39 @@
+.our__advantages__list {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .our__advantages__item {
+    flex-basis: calc((100% - 120px) / 4);
+  }
+  
+  .our__advantages__icon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .our__advantages__benefits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f4fa;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 15px;
+  }
+  
+  .our__advantages__title {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $primary-black-color;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .our__advantages__pagraph {
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: $primary-gray-color;
+  }
